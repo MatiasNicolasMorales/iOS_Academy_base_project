@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0D5620289D556100AD8B45 /* TedTalksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D561F289D556100AD8B45 /* TedTalksManager.swift */; };
+		0A0D5622289D6C5F00AD8B45 /* TedTalksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D5621289D6C5F00AD8B45 /* TedTalksModel.swift */; };
 		B3F949BC266A727C00D626BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F949BB266A727C00D626BB /* AppDelegate.swift */; };
 		B3F949BE266A727C00D626BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F949BD266A727C00D626BB /* SceneDelegate.swift */; };
 		B3F949C0266A727C00D626BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F949BF266A727C00D626BB /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0D561F289D556100AD8B45 /* TedTalksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TedTalksManager.swift; sourceTree = "<group>"; };
+		0A0D5621289D6C5F00AD8B45 /* TedTalksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TedTalksModel.swift; sourceTree = "<group>"; };
 		B3F949B8266A727C00D626BB /* Ted Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ted Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F949BB266A727C00D626BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3F949BD266A727C00D626BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0D561B289D4CF600AD8B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D561F289D556100AD8B45 /* TedTalksManager.swift */,
+				0A0D5621289D6C5F00AD8B45 /* TedTalksModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0A0D561C289D4D0200AD8B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3F949C1266A727C00D626BB /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0A0D561D289D4D0900AD8B45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3F949BF266A727C00D626BB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B3F949AF266A727C00D626BB = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +130,13 @@
 		B3F949BA266A727C00D626BB /* Ted Talk */ = {
 			isa = PBXGroup;
 			children = (
+				0A0D561D289D4D0900AD8B45 /* Controller */,
+				0A0D561C289D4D0200AD8B45 /* View */,
+				0A0D561B289D4CF600AD8B45 /* Model */,
 				B3F949EB266A729400D626BB /* Assets */,
 				B3F949BB266A727C00D626BB /* AppDelegate.swift */,
+				B3F949EC266A729400D626BB /* tedTalks.json */,
 				B3F949BD266A727C00D626BB /* SceneDelegate.swift */,
-				B3F949BF266A727C00D626BB /* ViewController.swift */,
-				B3F949C1266A727C00D626BB /* Main.storyboard */,
-				B3F949C4266A728000D626BB /* Assets.xcassets */,
 				B3F949C6266A728000D626BB /* LaunchScreen.storyboard */,
 				B3F949C9266A728000D626BB /* Info.plist */,
 			);
@@ -134,7 +164,7 @@
 		B3F949EB266A729400D626BB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B3F949EC266A729400D626BB /* tedTalks.json */,
+				B3F949C4266A728000D626BB /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -271,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F949C0266A727C00D626BB /* ViewController.swift in Sources */,
+				0A0D5620289D556100AD8B45 /* TedTalksManager.swift in Sources */,
 				B3F949BC266A727C00D626BB /* AppDelegate.swift in Sources */,
 				B3F949BE266A727C00D626BB /* SceneDelegate.swift in Sources */,
+				0A0D5622289D6C5F00AD8B45 /* TedTalksModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599Q85F9UG;
 				INFOPLIST_FILE = "Ted Talk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599Q85F9UG;
 				INFOPLIST_FILE = "Ted Talk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
