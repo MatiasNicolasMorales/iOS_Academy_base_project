@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A0D5620289D556100AD8B45 /* TedTalksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D561F289D556100AD8B45 /* TedTalksManager.swift */; };
 		0A0D5622289D6C5F00AD8B45 /* TedTalksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D5621289D6C5F00AD8B45 /* TedTalksModel.swift */; };
+		0A57BB2628AE740D00B8A9CE /* TedTalksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57BB2528AE740D00B8A9CE /* TedTalksViewController.swift */; };
 		B3F949BC266A727C00D626BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F949BB266A727C00D626BB /* AppDelegate.swift */; };
 		B3F949BE266A727C00D626BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F949BD266A727C00D626BB /* SceneDelegate.swift */; };
 		B3F949C0266A727C00D626BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F949BF266A727C00D626BB /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0A0D561F289D556100AD8B45 /* TedTalksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TedTalksManager.swift; sourceTree = "<group>"; };
 		0A0D5621289D6C5F00AD8B45 /* TedTalksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TedTalksModel.swift; sourceTree = "<group>"; };
+		0A57BB2528AE740D00B8A9CE /* TedTalksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TedTalksViewController.swift; sourceTree = "<group>"; };
 		B3F949B8266A727C00D626BB /* Ted Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ted Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F949BB266A727C00D626BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3F949BD266A727C00D626BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				B3F949BF266A727C00D626BB /* ViewController.swift */,
+				0A57BB2528AE740D00B8A9CE /* TedTalksViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				0A0D5620289D556100AD8B45 /* TedTalksManager.swift in Sources */,
 				B3F949BC266A727C00D626BB /* AppDelegate.swift in Sources */,
 				B3F949BE266A727C00D626BB /* SceneDelegate.swift in Sources */,
+				0A57BB2628AE740D00B8A9CE /* TedTalksViewController.swift in Sources */,
 				0A0D5622289D6C5F00AD8B45 /* TedTalksModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

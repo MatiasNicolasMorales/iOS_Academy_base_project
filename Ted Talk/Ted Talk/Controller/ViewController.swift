@@ -37,9 +37,10 @@ class ViewController: UITableViewController {
         override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             
             let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
-            
-
-            cell.textLabel?.text = "Main-Speacker: \(data[indexPath.row].mainSpeaker)"
+            let mydata = data[indexPath.row]
+            cell.textLabel?.adjustsFontSizeToFitWidth = true
+            cell.textLabel?.text = "Main-Speacker: \(mydata.mainSpeaker.capitalized)"
+            cell.detailTextLabel?.text = mydata.tedTalksModelDescription.capitalized
             
             return cell
         }
